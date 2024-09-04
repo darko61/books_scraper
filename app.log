@@ -1,0 +1,427 @@
+$d-08-24 13:05:27 INFO    [app.py:15] Loading books...
+$d-08-24 13:05:27 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:27 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET / HTTP/1.1" 200 51294
+$d-08-24 13:05:28 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:28 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-1.html HTTP/1.1" 200 50469
+$d-08-24 13:05:28 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:29 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-2.html HTTP/1.1" 200 50877
+$d-08-24 13:05:29 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:29 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-3.html HTTP/1.1" 200 51374
+$d-08-24 13:05:30 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:30 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-4.html HTTP/1.1" 200 52524
+$d-08-24 13:05:30 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:31 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-5.html HTTP/1.1" 200 51829
+$d-08-24 13:05:31 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:31 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-6.html HTTP/1.1" 200 51602
+$d-08-24 13:05:32 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:32 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-7.html HTTP/1.1" 200 51173
+$d-08-24 13:05:32 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:33 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-8.html HTTP/1.1" 200 51144
+$d-08-24 13:05:33 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:34 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-9.html HTTP/1.1" 200 50799
+$d-08-24 13:05:34 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:34 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-10.html HTTP/1.1" 200 51145
+$d-08-24 13:05:34 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:35 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-11.html HTTP/1.1" 200 50534
+$d-08-24 13:05:35 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:36 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-12.html HTTP/1.1" 200 50600
+$d-08-24 13:05:36 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:36 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-13.html HTTP/1.1" 200 51024
+$d-08-24 13:05:37 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:37 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-14.html HTTP/1.1" 200 50778
+$d-08-24 13:05:37 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:38 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-15.html HTTP/1.1" 200 51254
+$d-08-24 13:05:38 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:38 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-16.html HTTP/1.1" 200 50812
+$d-08-24 13:05:39 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:39 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-17.html HTTP/1.1" 200 50806
+$d-08-24 13:05:39 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:40 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-18.html HTTP/1.1" 200 50872
+$d-08-24 13:05:40 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:41 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-19.html HTTP/1.1" 200 51116
+$d-08-24 13:05:41 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:41 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-20.html HTTP/1.1" 200 51109
+$d-08-24 13:05:42 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:42 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-21.html HTTP/1.1" 200 50344
+$d-08-24 13:05:42 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:43 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-22.html HTTP/1.1" 200 50674
+$d-08-24 13:05:43 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:43 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-23.html HTTP/1.1" 200 51558
+$d-08-24 13:05:44 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:44 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-24.html HTTP/1.1" 200 50672
+$d-08-24 13:05:44 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:45 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-25.html HTTP/1.1" 200 51981
+$d-08-24 13:05:45 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:45 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-26.html HTTP/1.1" 200 50512
+$d-08-24 13:05:46 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:46 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-27.html HTTP/1.1" 200 51098
+$d-08-24 13:05:46 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:47 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-28.html HTTP/1.1" 200 51441
+$d-08-24 13:05:47 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:48 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-29.html HTTP/1.1" 200 50263
+$d-08-24 13:05:48 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:48 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-30.html HTTP/1.1" 200 50600
+$d-08-24 13:05:49 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:49 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-31.html HTTP/1.1" 200 50478
+$d-08-24 13:05:49 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:50 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-32.html HTTP/1.1" 200 50631
+$d-08-24 13:05:50 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:50 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-33.html HTTP/1.1" 200 51318
+$d-08-24 13:05:51 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:51 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-34.html HTTP/1.1" 200 50846
+$d-08-24 13:05:51 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:52 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-35.html HTTP/1.1" 200 50549
+$d-08-24 13:05:52 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:52 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-36.html HTTP/1.1" 200 50701
+$d-08-24 13:05:53 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:53 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-37.html HTTP/1.1" 200 50793
+$d-08-24 13:05:53 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:54 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-38.html HTTP/1.1" 200 51639
+$d-08-24 13:05:54 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:54 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-39.html HTTP/1.1" 200 50913
+$d-08-24 13:05:55 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:55 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-40.html HTTP/1.1" 200 50516
+$d-08-24 13:05:55 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:56 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-41.html HTTP/1.1" 200 50615
+$d-08-24 13:05:56 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:57 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-42.html HTTP/1.1" 200 50726
+$d-08-24 13:05:57 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:57 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-43.html HTTP/1.1" 200 50139
+$d-08-24 13:05:57 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:58 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-44.html HTTP/1.1" 200 50142
+$d-08-24 13:05:58 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:59 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-45.html HTTP/1.1" 200 50242
+$d-08-24 13:05:59 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:05:59 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-46.html HTTP/1.1" 200 50424
+$d-08-24 13:06:00 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:06:00 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-47.html HTTP/1.1" 200 50088
+$d-08-24 13:06:00 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:06:01 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-48.html HTTP/1.1" 200 50056
+$d-08-24 13:06:01 DEBUG   [connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-08-24 13:06:01 DEBUG   [connectionpool.py:557] https://books.toscrape.com:443 "GET /catalogue/page-49.html HTTP/1.1" 200 49909
+$d-09-24 14:42:36 DEBUG    selector_events.py:53] Using selector: KqueueSelector
+$d-09-24 14:42:36 INFO     app.py:21] Loading books...
+$d-09-24 14:42:36 DEBUG    connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-09-24 14:42:36 DEBUG    connectionpool.py:557] https://books.toscrape.com:443 "GET / HTTP/1.1" 200 51294
+$d-09-24 14:47:21 DEBUG    selector_events.py:53] Using selector: KqueueSelector
+$d-09-24 14:47:21 INFO     app.py:21] Loading books...
+$d-09-24 14:47:21 DEBUG    connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-09-24 14:47:21 DEBUG    connectionpool.py:557] https://books.toscrape.com:443 "GET / HTTP/1.1" 200 51294
+$d-09-24 14:49:41 DEBUG    selector_events.py:53] Using selector: KqueueSelector
+$d-09-24 14:49:41 INFO     app.py:21] Loading books...
+$d-09-24 14:49:41 DEBUG    connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-09-24 14:49:42 DEBUG    connectionpool.py:557] https://books.toscrape.com:443 "GET / HTTP/1.1" 200 51294
+$d-09-24 14:51:36 DEBUG    selector_events.py:53] Using selector: KqueueSelector
+$d-09-24 14:51:36 INFO     app.py:21] Loading books...
+$d-09-24 14:51:36 DEBUG    connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-09-24 14:51:37 DEBUG    connectionpool.py:557] https://books.toscrape.com:443 "GET / HTTP/1.1" 200 51294
+$d-09-24 14:52:40 DEBUG    selector_events.py:53] Using selector: KqueueSelector
+$d-09-24 14:52:40 INFO     app.py:21] Loading books...
+$d-09-24 14:52:40 DEBUG    connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-09-24 14:52:40 DEBUG    connectionpool.py:557] https://books.toscrape.com:443 "GET / HTTP/1.1" 200 51294
+$d-09-24 14:54:39 DEBUG    selector_events.py:53] Using selector: KqueueSelector
+$d-09-24 14:54:39 INFO     app.py:21] Loading books...
+$d-09-24 14:54:39 DEBUG    connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-09-24 14:54:40 DEBUG    connectionpool.py:557] https://books.toscrape.com:443 "GET / HTTP/1.1" 200 51294
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 14:54:41 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:41 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:41 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:41 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:41 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:41 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:41 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:41 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:41 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:41 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:42 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:43 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 14:54:43 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:09 DEBUG    selector_events.py:53] Using selector: KqueueSelector
+$d-09-24 15:01:09 INFO     app.py:21] Loading books...
+$d-09-24 15:01:09 DEBUG    connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-09-24 15:01:09 DEBUG    connectionpool.py:557] https://books.toscrape.com:443 "GET / HTTP/1.1" 200 51294
+$d-09-24 15:01:10 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:10 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:10 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:10 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:10 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:10 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:10 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 15:01:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:07 DEBUG    selector_events.py:53] Using selector: KqueueSelector
+$d-09-24 17:19:07 INFO     app.py:21] Loading books...
+$d-09-24 17:19:07 DEBUG    connectionpool.py:1057] Starting new HTTPS connection (1): books.toscrape.com:443
+$d-09-24 17:19:07 DEBUG    connectionpool.py:557] https://books.toscrape.com:443 "GET / HTTP/1.1" 200 51294
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:08 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:09 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:10 DEBUG    api.py:440] Encoding detection: utf_8 is most likely the one.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:10 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:11 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:12 DEBUG    app.py:53] Creating AllBooks page from page content.
+$d-09-24 17:19:12 DEBUG    app.py:53] Creating AllBooks page from page content.
