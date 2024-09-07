@@ -1,21 +1,42 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
   branches:
     include:
       - dev
 
 pool:
-  name: 'local_pool'
+  name: 'local_pool' 
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+variables:
+  - group: 'GITHUB_TOKEN'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+jobs:
+  - job: InstallDependencies
+    displayName: 'Install Dependencies'
+    steps:
+      - task: UsePythonVersion@0
+        inputs:
+          versionSpec: '3.x'
+          addToPath: true
+
+      - script: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+        displayName: 'Install dependencies'
+        env:
+          GITHUB_TOKEN: $(GITHUB_TOKEN) 
+
+  - job: LintCode
+    displayName: 'Run Linter'
+    dependsOn: InstallDependencies
+    steps:
+      - script: |
+          flake8 .
+        displayName: 'Run Linter'
+
+  - job: RunTests
+    displayName: 'Run Tests'
+    dependsOn: LintCode
+    steps:
+      - script: |
+          python -m unittest discover
+        displayName: 'Run tests'
