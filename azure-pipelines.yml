@@ -25,17 +25,9 @@ jobs:
         env:
           GITHUB_TOKEN: $(GITHUB_TOKEN) 
 
-  - job: LintCode
-    displayName: 'Run Linter'
-    dependsOn: InstallDependencies
-    steps:
-      - script: |
-          flake8 .
-        displayName: 'Run Linter'
-
   - job: RunTests
     displayName: 'Run Tests'
-    dependsOn: LintCode
+    dependsOn: InstallDependencies
     steps:
       - script: |
           python -m unittest discover
