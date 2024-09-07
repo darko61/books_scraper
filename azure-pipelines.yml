@@ -19,6 +19,11 @@ jobs:
           addToPath: true
 
       - script: |
+          pip list
+          pip freeze
+        displayName: 'List installed packages'
+
+      - script: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
         displayName: 'Install dependencies'
